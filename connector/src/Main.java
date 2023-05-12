@@ -21,12 +21,12 @@ public class Main {
         //preparedStatement.setString(2,"Lamjung");
         //ResultSet resultSet= preparedStatement.executeQuery();
 
-        //while (resultSet.next()){
-          //  System.out.println(resultSet.getInt("id") + "");
-           // System.out.println(resultSet.getString("name"));
-            //System.out.println("");
-            //System.out.println(resultSet.getString("address"));
-            //System.out.println("\n");
-        //}
+        while (resultSet.next()){
+          System.out.println(resultSet.getInt("id") + "");
+          System.out.println(resultSet.getString("name"));
+          System.out.println("");
+          System.out.println(resultSet.getString("address"));
+          System.out.println("\n");
+        }
     }
 }
